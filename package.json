@@ -1,21 +1,28 @@
 {
   "name": "gamepad",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "scripts": {
+    "docs": "rm -Rf docs && jsdoc -d docs -r -c .jsdoc.js .",
+    "lint": "jshint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silent-tempest/gamepad.git"
   },
   "author": "SILENT",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/silent-tempest/gamepad/issues"
   },
   "homepage": "https://github.com/silent-tempest/gamepad#readme",
   "dependencies": {
-    "light-emitter": "https://github.com/silent-tempest/light-emitter#master",
-    "super-extend": "https://github.com/silent-tempest/super-extend#master",
-    "v6.js": "*"
-  }
+    "light-emitter": "github:silent-tempest/light-emitter#master",
+    "super-extend": "github:silent-tempest/super-extend#master",
+    "v6.js": "github:silent-tempest/v6.js#dev"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "description": ""
 }

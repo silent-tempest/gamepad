@@ -1,4 +1,5 @@
-out
+docs
 .gitignore
 .jshintrc
-,jshintignore
+.jshintignore
+.jsdoc.js

@@ -36,7 +36,7 @@ Gamepad.prototype = {
    * @method module:gamepad.Gamepad#construct
    * @param  {function} constructor
    * @param  {object}   options
-   * @return {void}
+   * @return {module:gamepad.IGamepadPart}
    * @example
    * var GamepadStick = require( 'gamepad/core/parts/GamepadStick' );
    * var Vector2D     = require( 'v6.js/math/Vector2D' );

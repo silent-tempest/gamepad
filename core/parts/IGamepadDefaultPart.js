@@ -9,7 +9,7 @@ var IGamepadDefaultPart = extend( IGamepadPart, {
    * @constructor module:gamepad.IGamepadDefaultPart
    * @extends {module:gamepad.IGamepadPart}
    */
-  constructor: function IGamepadPart ( options ) {
+  constructor: function IGamepadDefaultPart ( options ) {
     this.__super__.call( this, options );
     window.addEventListener( 'resize', this._resize.bind( this ) );
   },
